@@ -1,0 +1,17 @@
+{
+  "name": "mindexer",
+  "version": "0.0.1",
+  "description": "A blockchain indexer for tendermint based chains",
+  "main": "index.js",
+  "repository": "https://github.com/metmirr/mindexer",
+  "author": "metmirr <metmirr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "index": "ts-node src/index.ts",
+    "chain:start": "infrinityd start"
+  },
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.26.4",
+    "@cosmjs/tendermint-rpc": "^0.26.4"
+  }
+}
