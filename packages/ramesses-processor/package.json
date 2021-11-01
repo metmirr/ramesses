@@ -1,0 +1,9 @@
+{
+  "name": "ramesses-processor",
+  "version": "0.0.1",
+  "description": "Ramesses Processor CLI",
+  "main": "lib/index.js",
+  "repository": "https://github.com/metmirr/ramesses.git",
+  "author": "metmirr <metmirr@gmail.com>",
+  "license": "MIT"
+}
