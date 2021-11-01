@@ -1,9 +1,9 @@
 {
-  "name": "mindexer",
+  "name": "@metmirr/ramesses-indexer",
   "version": "0.0.1",
-  "description": "A blockchain indexer for tendermint based chains",
-  "main": "index.js",
-  "repository": "https://github.com/metmirr/mindexer",
+  "description": "Block indexer for cosmos based chains",
+  "main": "lib/index.js",
+  "repository": "https://github.com/metmirr/ramesses",
   "author": "metmirr <metmirr@gmail.com>",
   "license": "MIT",
   "scripts": {
