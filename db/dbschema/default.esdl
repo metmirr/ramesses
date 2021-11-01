@@ -1,3 +1,5 @@
+using extension graphql;
+
 module default {
   # Block metadata
   type Block {
