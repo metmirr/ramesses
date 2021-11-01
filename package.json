@@ -8,10 +8,13 @@
   "license": "MIT",
   "scripts": {
     "index": "ts-node src/index.ts",
-    "chain:start": "infrinityd start"
+    "chain:start": "test-chaind start",
+    "db:migration:create": "(cd db && edgedb migration create)",
+    "db:migrate": "(cd db && edgedb migrate)"
   },
   "dependencies": {
     "@cosmjs/proto-signing": "^0.26.4",
-    "@cosmjs/tendermint-rpc": "^0.26.4"
+    "@cosmjs/tendermint-rpc": "^0.26.4",
+    "edgedb": "^0.15.2"
   }
 }
